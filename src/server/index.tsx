@@ -1,3 +1,4 @@
+const path = require('path');
 import express, { Request, Response } from 'express';
 import React from 'react';
 import { renderToPipeableStream } from 'react-dom/server';
@@ -7,9 +8,9 @@ import App from '../components/App';
 const app = express();
 
 app.use(express.static('dist'));
+app.use(express.static('public'));
 
 app.get('*', (req: Request, res: Response) => {
-
   const { pipe } = renderToPipeableStream(
     <StaticRouter location={req.url}>
       <App />

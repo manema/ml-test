@@ -1,0 +1,20 @@
+$content-max-width: 1200px;
+
+.header-container {
+  display: flex;
+  height: 3.5rem;
+  width: 100%;
+  background-color: #ffe600;
+
+  > .header-content {
+    display: flex;
+    margin: .5rem auto;
+    max-width: $content-max-width;
+    flex-grow: 1;
+
+    .header-icon {
+      width: 2rem;
+      padding-right: 2rem;
+    }
+  }
+}
