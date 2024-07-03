@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto es una prueba técnica para un rol de frontend engineer en MercadoLibre. La aplicación consiste en una barra de busqueda, donde los usuarios pueden buscar items, ver los resultados y acceder a una pantalla de detalle del item si así lo desean.
+Este proyecto es una prueba técnica para el rol de frontend engineer en MercadoLibre. La aplicación consiste en una barra de busqueda donde los usuarios pueden buscar items, ver los resultados y acceder a una pantalla de detalle del item si así lo desean.
 
 ## Diseño
 La aplicación consiste en un servidor express que renderiza las pantallas antes de enviarlas al cliente (SSR), 
@@ -25,7 +25,7 @@ El scope de este proyecto escapa a ciertas consideraciones que se tiene que tene
 
 1. Clona el repositorio:
     ```bash
-    git clone [https://github.com/tu-usuario/mercadolibre-frontend-test.git](https://github.com/manema/ml-test.git) 
+    git clone https://github.com/manema/ml-test.git 
     cd ml-test
     ```
 
