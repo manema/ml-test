@@ -6,7 +6,7 @@ Este proyecto es una prueba técnica para el rol de frontend engineer en Mercado
 
 ## Diseño
 La aplicación consiste en un servidor express que renderiza las pantallas antes de enviarlas al cliente (SSR), 
-donde luego se realiza la hydration de la pantalla.
+donde luego se realiza hydration a la pantalla.
 
 ## Scope
 El scope de este proyecto escapa a ciertas consideraciones que se tiene que tener en cuenta a la hora de realizar server side rendering, algunos ejemplos son:
@@ -60,4 +60,12 @@ Formatea el codigo.
 
 ```bash
 npm run prettier
+```
+
+### `npm run lint`
+
+Corre el linter.
+
+```bash
+npm run lint
 ```
