@@ -21,6 +21,9 @@ El scope de este proyecto escapa a ciertas consideraciones que se tiene que tene
 - SCSS
 - Webpack
 
+## Requisitos
+- Node.js 14 o superior.
+
 ## Instalación
 
 1. Clona el repositorio:
@@ -31,7 +34,8 @@ El scope de este proyecto escapa a ciertas consideraciones que se tiene que tene
 
 2. Instala las dependencias:
     ```bash
-    npm install
+    npm install // npm
+    yarn // yarn
     ```
 
 ## Scripts disponibles
