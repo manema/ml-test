@@ -1,0 +1,9 @@
+@import '@styles/constants.scss';
+
+.default-error {
+  color: $dark-red;
+  font-size: $font-large;
+  padding: 1rem;
+  border: 1px solid $dark-red;
+  border-radius: 7px;
+}

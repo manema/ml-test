@@ -1,0 +1,30 @@
+.search-bar {
+  display: flex;
+  flex-grow: 1;
+  background-color: white;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+  border-radius: 1px;
+
+  > * {
+    border: none;
+    background: none;
+  }
+
+  > .search-bar-input {
+    flex-grow: 1;
+    padding: .5rem;
+  }
+
+  > .magnifying-btn {
+    cursor: pointer;
+    width: 2.5rem;
+    background-color: lightgray;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    > img {
+      width: 1rem;
+    }
+  }
+}
