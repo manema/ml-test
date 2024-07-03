@@ -1,0 +1,78 @@
+@import '@styles/constants.scss';
+
+.item-list-wrapper {
+  border-radius: 2px;
+  background-color: white;
+  padding: 0 1rem;
+  min-height: 48rem;
+  box-shadow: $default-shadow;
+
+  > :not(:last-child) {
+    border-bottom: 1px solid $silver;
+  }
+
+  &.loading {
+    display: flex;
+  }
+}
+
+.item-list-loader, .item-list-error {
+  align-self: center;
+  margin: auto;
+}
+
+.item-list-container {
+  display: flex;
+  padding: 1rem 0;
+  height: 10rem;
+
+  &:hover {
+    opacity: .75;
+  }
+
+  // background-color: white;
+
+  .item-list-image {
+    width: 9rem;
+    border-radius: 2px;
+  }
+
+  .item-list-content-wrapper {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+  }
+
+  .item-list-content {
+    display: flex;
+    flex-direction: column;
+
+    &-price {
+      display: flex;
+      padding: 1rem 0;
+      font-size: $font-large;
+
+      > span {
+        font-size: $font-xsmall;
+      }
+    }
+
+    &-title {
+      font-size: $font-medium;
+    }
+
+    &-shipping-icon {
+      margin-left: 1rem;
+      width: 1.5rem;
+      background-color: lightgreen;
+      border-radius: 50px;
+    }
+  }
+
+  .item-list-location {
+    font-size: $font-xsmall;
+    color: $dove-gray;
+    padding: 1rem 3rem 1rem 0;
+  }
+}

@@ -2,8 +2,12 @@
   "compilerOptions": {
     "baseUrl": "src",
     "paths": {
+      "@pages/*": ["pages/*"],
       "@components/*": ["components/*"],
       "@styles/*": ["styles/*"],
+      "@types/*": ["types/*"],
+      "@constants/*": ["constants/*"],
+      "@utils/*": ["utils/*"]
     },
     "target": "es6",
     "module": "commonjs",
